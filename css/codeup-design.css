@@ -1,0 +1,167 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background: #f0f0f0;
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brand-name {
+    font-size: 1.75em;
+}
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+#company-page-title {
+    font-family: Anton, sans-serif;
+    font-size: 48px;
+    margin-top: 1em;
+}
+
+#company-location-header {
+    font-family: Anton, sans-serif;
+    margin-top: 2em;
+}
+
+#company-about {
+    width: 100vw;
+    text-align: center;
+}
+
+
+/*CIRCLE CONTAINER */
+
+.circle {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 6px solid white;
+    height: 105px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-div-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 1em;
+    grid-column-gap: 2em;
+    margin: 2.5em;
+}
+
+#circle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.circle-text {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.red, .badge-red {
+    background-color: #E6563B;
+}
+
+.yellow, .badge-yellow {
+    background-color: #EB9D3A;
+}
+
+.blue, .badge-blue {
+    background-color: #00ABA9
+}
+
+.green, .badge-green {
+    background-color: #7CB06C;
+}
+
+
+/*BOTTOM CARDS*/
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .25rem;
+    border-style: none;
+    background-color: #f0f0f0;
+}
+
+.card-img-top {
+    border: solid 5px lightgrey;
+}
+
+.pill-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.badge {
+    color: black;
+}
+
+
+.last-image {
+    width: 55px;
+    height: 50px;
+}
+
+.last-header {
+    font-size: 24px;
+    font-family: Anton, sans-serif;
+    margin-bottom: 0;
+    margin-left: 7px;
+}
+
+.thelastweet {
+    display: inline-flex;
+    align-items: center;
+    width: 65%;
+}
+
+/*Small devices*/
+@media (min-width: 500px) {
+    #circle-div-list {
+        display: flex;
+        margin: 2.5em 2.5em 1em 2.5em;
+    }
+
+    hr {
+        width: 44%;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 1000px) {
+    .visible-on-med {
+        display: none;
+    }
+}
