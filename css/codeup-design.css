@@ -134,6 +134,11 @@ h3 {
     height: 50px;
 }
 
+.twitter-image {
+    width: 35px;
+    height: 35px;
+}
+
 .last-header {
     font-size: 24px;
     font-family: Anton, sans-serif;
@@ -145,6 +150,19 @@ h3 {
     display: inline-flex;
     align-items: center;
     width: 65%;
+}
+
+.twitter-header {
+    font-family: Abel, sans-serif;
+}
+
+p {
+
+    margin-left: 2em;
+}
+
+.badge{
+    margin-left: 0.5em;
 }
 
 /*Small devices*/
