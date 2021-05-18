@@ -189,10 +189,10 @@ p {
 
 }
 
-/*@media screen and (max-width: 770px) {*/
-/*    .visible-on-med {*/
-/*        display: none;*/
-/*    }*/
+@media screen and (max-width: 770px) {
+    .visible-on-med {
+        display: none;
+    }
 
 
-/*}*/
+}
